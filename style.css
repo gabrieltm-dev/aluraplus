@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+	--cor-primaria: #00030c;
+	--cor-texto-1: #ffffff;
+	--cor-botao-1: #167bf7;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: var(--cor-primaria);
+	box-sizing: border-box;
+}
+
+.top {
+	/* display: flex;
+	align-items: center; */
+    width: 100vw;
+    height: 1440px;
+	background-image: url(./assets/Background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* .top_conteudo {
+	display: flex;
+	flex-direction: column;
+	color: var(--cor-texto-1);
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	padding: 0 8% 0 10%;
+}
+
+.top_titulo {
+	width: 60%;
+	font-weight: bold;
+	font-family: "Inter", serif;
+}
+
+.assinar {
+	border: solid 0.15rem var(--cor-texto-1);
+	border-radius: 5px;
+	width: 300px;
+	text-align: center;
+	padding: 15px;
+}
+
+.assinar1 {
+	background-color: var(--cor-botao-1);
+} */
