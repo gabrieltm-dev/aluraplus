@@ -27,7 +27,7 @@ body {
     background-repeat: no-repeat;
 }
 
-/* .top_conteudo {
+.top_conteudo {
 	display: flex;
 	flex-direction: column;
 	color: var(--cor-texto-1);
@@ -53,4 +53,4 @@ body {
 
 .assinar1 {
 	background-color: var(--cor-botao-1);
-} */
+}
