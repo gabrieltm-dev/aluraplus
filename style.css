@@ -170,3 +170,86 @@ body {
 	color: var(--cor-cinza-1);
 	font-weight: normal;
 }
+
+@media screen and (max-width: 768px){
+	.container{
+		display: block;
+		background-image: none;
+		height: auto;
+		padding: 0 2.5vw 5em 2.5vw;
+	}
+
+	.terciario__caixa{
+		margin: 0;
+		padding: 2.5em 10vw;
+	}
+
+	.image-invisible{
+		display: none;
+	}
+
+	.container__imagem{
+		width: 50vw;
+	}
+
+	.container__caixa{
+		margin: 2em 2em;
+	}
+
+	.secundario{
+		margin: 0;
+		text-align: center;
+	}
+
+	.secundario__img{
+		width: 50vw;
+	}
+
+	.container__dispositivos{
+		display: block;
+	}
+
+	.dispositivo__titulo, .container__titulo, .secundario__titulo{
+		font-size: 32px;
+		padding-top: 1em;
+	}
+
+	.dispositivos{
+		margin: 0;
+		padding: 0;
+	}
+
+	.container__dispositivos{
+		padding: 0;
+		margin-bottom: 10em;
+	}
+
+	.dispositivo__imagem{
+		width: 100%;
+		text-align: center;
+	}
+
+	.dispositivo__texto{
+		width: 100%;
+		text-align: center;
+	}
+	
+	.rodape__lista{
+		flex-wrap: wrap;
+		padding: 2vw;
+		margin: 0;
+	}
+
+	.rodape__texto{
+		padding: 5em 10vw 0 10vw;
+		margin: 0;
+	}
+
+	.secundario__caixa{
+		margin: 0;
+	}
+
+	.rodape{
+		margin-bottom: 2em;
+	}
+}
